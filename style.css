@@ -1,0 +1,125 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  background-color: black;
+  color: aliceblue;
+  font-weight: 700;
+}
+
+header ul {
+  list-style-type: none;
+  text-align: center;
+  display: ;
+}
+
+header li {
+  display: inline-block;
+  margin: 20px;
+  color: aliceblue;
+}
+
+a {
+  color: rgba(129, 105, 237, 0.999);
+  padding-right: 20px;
+  text-decoration: none;
+}
+
+.Heil {
+  background-color: brown;
+  color: aliceblue;
+  padding: 10px 5px;
+  border-radius: 10px;
+}
+
+.first-div {
+  background-image: linear-gradient(
+    179deg,
+    rgba(0, 0, 0, 1) 9.2%,
+    rgba(127, 16, 16, 1) 103.9%
+  );
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+h1 {
+  font-weight: 1000px;
+  padding-left: 15%;
+  font-size: xx-large;
+}
+.anime {
+  border-radius: 15px;
+  width: 500px;
+}
+
+.audio {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: linear-gradient(
+    183.5deg,
+    rgba(244, 173, 6, 1) 18.6%,
+    rgba(229, 251, 31, 1) 119.9%
+  );
+}
+#manga {
+  border-radius: 15px;
+  width: 500px;
+}
+#speech {
+  padding-left: 25%;
+}
+.third {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5%;
+}
+.Erwin {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  background-image: linear-gradient(
+    179deg,
+    rgba(0, 0, 0, 1) 9.2%,
+    rgba(127, 16, 16, 1) 103.9%
+  );
+}
+#smith {
+  font-size: xx-large;
+  padding-top: 10%;
+  padding-left: 10%;
+}
+
+.tableau {
+  
+  background-image: linear-gradient(
+    183.5deg,
+    rgba(244, 173, 6, 1) 18.6%,
+    rgba(229, 251, 31, 1) 119.9%
+  );
+  padding-bottom: 3%;
+}
+  
+}
+#wins {
+  font-size: x-large;
+  padding-bottom: 3%;
+}
+.paragraphe {
+  padding-left: 20%;
+  padding-bottom: 5%;
+  font-weight: 800;
+  font-size: xx-large;
+}
+#stars{
+    padding-bottom: 25%;
+    margin: 1%;
+}
+.last{
+    display:flex ;
+    align-items: center;
+}

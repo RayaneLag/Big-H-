@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The fury</title>
     <link rel="shortcut icon" href="big H.png" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!-- part one -->
@@ -12,28 +13,30 @@
     <header>
       <nav>
         <ul>
-          <li>Who is</li>
-          <li>Why is</li>
-          <li>It is</li>
+          <li>Who is?</li>
+          <li>Why is?</li>
+          <li>It is!!</li>
+          <a href="/">Click here </a>
+          <button class="Heil">Heil the fury!!</button>
         </ul>
-        <a href="/">enlist in the army </a>
-        <button>Heil the fury!!</button>
       </nav>
     </header>
 
     <!-- part two  -->
     <section>
-      <div>
-        <h1>"The goat himslef , the Fury never die"</h1>
+      <div class="first-div">
+        <h1><strong> "The goat himslef , the Fury never die"</strong></h1>
         <img
+          class="anime"
           src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/1bb2df56-4c6f-418e-bd9f-ab3864f0fd63/dajd932-6930d790-8f1c-4aa3-9484-22b77bcd13d9.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzFiYjJkZjU2LTRjNmYtNDE4ZS1iZDlmLWFiMzg2NGYwZmQ2M1wvZGFqZDkzMi02OTMwZDc5MC04ZjFjLTRhYTMtOTQ4NC0yMmI3N2JjZDEzZDkucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.lc5xQAkVVXk_lnO_gPnnG-csoFEf-EIzGi8xujQBI0I"
           alt="anime pic"
           height="250"
         />
       </div>
-      <div>
-        <audio controls="controls" src="big song.mp3"></audio>
+      <div class="audio">
+        <audio id="speech" controls="controls" src="big song.mp3"></audio>
         <img
+          id="manga"
           src="https://s.observers.france24.com/media/display/3d896dd6-f51c-11eb-a9f8-005056a9f78a/manga%20-%20planche%20-2.jpg"
           alt="manga"
           height="250"
@@ -41,16 +44,16 @@
       </div>
     </section>
     <section>
-      <div>
-        <h2>Join the army of death</h2>
-        <form>
+      <div class="third">
+        <h2 id="army">Join the army of death</h2>
+        <form class="form">
           <label for="dog Tags">Dog Tags</label>
           <input type="text" id="Dog Tags" placeholder="452702,Germany,A+..." />
           <button>Submit</button>
         </form>
       </div>
-      <div>
-        <h2><strong> Why you should Join us !!! </strong></h2>
+      <div class="Erwin">
+        <h2 id="smith"><strong> Why you should Join us : </strong></h2>
         <iframe
           width="560"
           height="315"
@@ -63,13 +66,12 @@
       </div>
     </section>
     <section>
-      <div>
-        <p><strong>IT IS WHAT IT IS</strong></p>
-      </div>
+      <div></div>
       <!-- i put the div for the background of the "p" -->
-      <div>
+      <div class="tableau">
+        <p class="paragraphe"><strong>IT IS WHAT IT IS</strong></p>
         <table border="1" width="50%">
-          <caption>
+          <caption id="">
             wins
           </caption>
           <thead>
@@ -94,29 +96,28 @@
         </table>
       </div>
     </section>
-    <footer>
-      <div>
+    <footer class="footer">
+      <div class="last">
         <h3>reviews about us on TripAdvisor</h3>
         <img
+          id="stars"
           src="https://static.vecteezy.com/system/resources/previews/017/785/213/original/5-star-rating-star-illustration-on-transparent-background-free-png.png"
           alt="stars"
           height="100"
           width="100"
         />
-      </div>
-      
         <h4>Follow us on</h4>
-        
-          <img
-            src="https://cdn-icons-png.flaticon.com/256/61/61109.png"
-            alt="Linkedin"
-            height="25"
-          />
-          <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/National_Socialist_swastika.svg/1200px-National_Socialist_swastika.svg.png"
-            alt="EnigMedia"
-            height="25"
-          />
+
+        <img
+          src="https://cdn-icons-png.flaticon.com/256/61/61109.png"
+          alt="Linkedin"
+          height="25"
+        />
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/National_Socialist_swastika.svg/1200px-National_Socialist_swastika.svg.png"
+          alt="EnigMedia"
+          height="25"
+        />
       </div>
     </footer>
   </body>
