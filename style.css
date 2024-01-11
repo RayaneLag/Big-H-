@@ -18,8 +18,8 @@ main {
   gap: 80px;
   width: 100%;
   max-width: 1600px;
-  font-family: "Rubik Glitch", system-ui;
-  @import url("https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap");
+  font-family: "Roboto", sans-serif;
+  @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap");
 }
 
 /* Part 1 navbar  */
